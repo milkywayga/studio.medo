@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio.Medo — Custom Leathercraft & Bespoke Commissions</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Modular CSS Files -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="index.html" class="logo">Studio<span>.</span>Medo</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#work">Selected Work</a></li>
+        <li><a href="#process">Craft & Materials</a></li>
+        <li><a href="#enquiry" class="btn-primary">Commission Item</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <p class="hero-subtitle">Handcrafted in Small Batches • Vancouver, BC</p>
+    <h1 class="hero-title">Bespoke leather goods built with uncompromising bench discipline.</h1>
+    <p class="hero-desc">Every piece is hand-cut, hand-stitched, and finished individually using traditional techniques and fine vegetable-tanned leathers.</p>
+    <a href="#enquiry" class="btn-primary">Start a Custom Project</a>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="work" class="section">
+    <div class="section-header">
+      <h2 class="section-title">Selected Projects</h2>
+      <p style="color: var(--text-muted)">Recent custom commissions and small-batch pieces</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <!-- Item 1 -->
+      <div class="portfolio-card">
+        <div class="portfolio-img-wrapper">
+          <img src="assets/images/portfolio/bifold-wallet.jpg" alt="Custom Bifold Wallet" onerror="this.src='https://placehold.co/600x450/f5f1ea/2a2725?text=Bifold+Wallet'">
+        </div>
+        <div class="portfolio-info">
+          <span class="portfolio-category">Wallets</span>
+          <h3 class="portfolio-item-title">Minimalist Bifold</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Horween Chromexcel & Linen Thread</p>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="portfolio-card">
+        <div class="portfolio-img-wrapper">
+          <img src="assets/images/portfolio/card-holder.jpg" alt="Custom Card Holder" onerror="this.src='https://placehold.co/600x450/f5f1ea/2a2725?text=Card+Holder'">
+        </div>
+        <div class="portfolio-info">
+          <span class="portfolio-category">Card Cases</span>
+          <h3 class="portfolio-item-title">Single Slot Envelope</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Badalassi Carlo Buttero</p>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="portfolio-card">
+        <div class="portfolio-img-wrapper">
+          <img src="assets/images/portfolio/desk-mat.jpg" alt="Leather Desk Mat" onerror="this.src='https://placehold.co/600x450/f5f1ea/2a2725?text=Desk+Mat'">
+        </div>
+        <div class="portfolio-info">
+          <span class="portfolio-category">Bespoke Studio</span>
+          <h3 class="portfolio-item-title">Executive Desk Mat</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">Custom Sizing & Creased Edges</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom Project Enquiry Form -->
+  <section id="enquiry" class="section">
+    <div class="section-header">
+      <h2 class="section-title">Custom Item Enquiry</h2>
+      <p style="color: var(--text-muted)">Share your vision to initiate a personal custom build</p>
+    </div>
+
+    <div class="form-container">
+      <form id="custom-enquiry-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" class="form-control" required placeholder="e.g. Jane Doe">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" class="form-control" required placeholder="jane@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="category">Project Category</label>
+          <select id="category" name="category" class="form-control">
+            <option value="wallet">Wallet / Cardholder</option>
+            <option value="accessory">Desk / Office Accessory</option>
+            <option value="bag">Watch Strap or Journal</option>
+            <option value="full-custom">Other Custom Concept</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="details">Design Details & Requirements</label>
+          <textarea id="details" name="details" class="form-control" rows="5" placeholder="Describe card capacity, preferred colors, dimensions, or specific features..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer; padding: 1rem;">Submit Custom Enquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Studio.Medo. All rights reserved. Handcrafted in Vancouver, BC.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/form.js"></script>
+</body>
+</html>

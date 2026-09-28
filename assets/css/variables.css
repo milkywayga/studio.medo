@@ -1,0 +1,25 @@
+:root {
+  /* Colors inspired by Oak & Honey (Light Cream, Linen, Warm Leather Accents) */
+  --bg-primary: #fdfbf7;
+  --bg-secondary: #f5f1ea;
+  --bg-card: #ffffff;
+  
+  --text-primary: #2a2725;
+  --text-muted: #6e6a66;
+  --text-light: #8f8a84;
+  
+  --accent-tan: #c88a4a;
+  --accent-brown: #8c532b;
+  --accent-border: #e3ded6;
+  --accent-dark: #1f1d1b;
+
+  /* Typography */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Transitions & Shadows */
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --shadow-subtle: 0 4px 20px rgba(0, 0, 0, 0.04);
+  --shadow-hover: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
