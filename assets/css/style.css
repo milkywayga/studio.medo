@@ -47,11 +47,20 @@ img {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* Space between logo image and text */
+  text-decoration: none;
   font-family: var(--font-heading);
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+.logo-img {
+  height: 36px; /*adjust height to match your header scale */
+  width: auto;
+  object-fit: contain;
 }
 
 .logo span {
